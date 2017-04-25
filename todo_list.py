@@ -24,7 +24,10 @@ def view_list(my_list):
 def display_main_menu(my_list):
     """Displays main options, takes in user input, and calls view or add function."""
 
-    user_options = """
+    user_options = raw_input("/nWould you like to A. Add a new item, B. View list, C. Quit the program")
+
+
+    """
     \nWould you like to:
     A. Add a new item
     B. View list
